@@ -94,7 +94,9 @@ To remove a customer from the database by customer id.
 
 This example is using the curl command line
 
+```bash
 curl -X "DELETE" http://localhost:8080/api/customer/1
+```
 The result is:
 
-{"message":"deleted","rows":1}
+`{"message":"deleted","rows":1}`
